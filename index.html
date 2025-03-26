@@ -55,10 +55,14 @@
         }
 
         @media (max-width: 768px) {
-            .center-flower {
-                opacity: 1;
-            }
-        }
+    .flower {
+        display: none; /* Hide the corner flowers on small screens */
+    }
+
+    .center-flower {
+        opacity: 1; /* Ensure the center flower remains fully visible */
+    }
+}
 
         @keyframes float {
             0% { transform: translateY(0) rotate(0deg); }
