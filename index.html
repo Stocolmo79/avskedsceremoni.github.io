@@ -30,40 +30,28 @@
             font-size: 16px;
             line-height: 1.8;
         }
-        .details {
+        .uggla {
             margin-top: 20px;
             font-weight: bold;
         }
-        .flower {
+        .uggla {
             position: absolute;
             width: 60px;
             animation: float 6s infinite alternate ease-in-out;
         }
-        .flower:nth-child(1) { top: 10px; left: 10px; animation-duration: 5s; }
-        .flower:nth-child(2) { top: 10px; right: 10px; animation-duration: 7s; }
-        .flower:nth-child(3) { bottom: 10px; left: 10px; animation-duration: 6s; }
-        .flower:nth-child(4) { bottom: 10px; right: 10px; animation-duration: 8s; }
+        .uggla:nth-child(1) { top: 10px; left: 10px; animation-duration: 5s; }
+        .uggla:nth-child(2) { top: 10px; right: 10px; animation-duration: 7s; }
+        .uggla:nth-child(3) { bottom: 10px; left: 10px; animation-duration: 6s; }
+        .uggla:nth-child(4) { bottom: 10px; right: 10px; animation-duration: 8s; }
         
-        .center-flower {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 150px;
-            opacity: 1;
-            transition: opacity 0.5s ease-in-out;
-        }
+       
 
         @media (max-width: 768px) {
-    .flower {
-        display: none; /* Hide the corner flowers on small screens */
+    .uggla {
+         opacity: 0.1;
     }
 
-    .center-flower {
-        opacity: 0.1;
-        z-index: 1;
-    
-    }
+  
 }
 
         @keyframes float {
@@ -74,13 +62,13 @@
 </head>
 <body>
     
-    <img src="owl" class="center-flower" alt="Blomma i mitten">
+ 
 
     <div class="container">
-      <img src="owl.svg" class="flower" alt="Blomma">
-      <img src="owl.svg" class="flower" alt="Blomma">
-      <img src="owl.svg" class="flower" alt="Blomma">
-      <img src="owl.svg" class="flower" alt="Blomma">
+      <img src="owl.svg" class="uggla" alt="Uggla">
+      <img src="owl.svg" class="uggla" alt="Uggla">
+      <img src="owl.svg" class="uggla" alt="Uggla">
+      <img src="owl.svg" class="uggla" alt="Uggla">
         <h1>Avskedsceremoni</h1>
         <p><strong>Jose Bernardino Cisternas Riveros</strong><br>350114 – 250313</p>
         <p>
